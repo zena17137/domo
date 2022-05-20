@@ -14,6 +14,17 @@ body {
 	font-weight: 800;
 	/* position: fixed; */
 }
+@media (max-width: 720px) {
+	.header {
+		height: 150px;
+		padding: 20px 0;
+	}
+}
+
+.text-info p {
+	margin: 0px 0px 15px 0px;
+}
+
 .logo__text {
 	font-size: 40px;
 }
